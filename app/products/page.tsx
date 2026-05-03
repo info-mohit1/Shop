@@ -9,7 +9,7 @@ import { Search, X } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 
-const CATEGORIES = ["All", "Water Sports", "Skincare", "Outdoors", "Pool & Beach", "Accessories", "Apparel", "Home & Decor", "Bags"];
+const CATEGORIES = ["All", "Water Sports", "Skincare", "Outdoors", "Pool & Beach", "Accessories",  "Home & Decor", "Bags"];
 
 function ProductsContent() {
   const searchParams = useSearchParams();
